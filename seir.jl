@@ -138,8 +138,8 @@ end
 # ╔═╡ c3cfb4b7-d417-48ff-ac5f-49725d218932
 # This Block contains the initial conditions for the ODE 
 begin
-	i_0 = 1E-7                  # 33 = 1E-7 * 330 million population = initially infected
-	e_0 = 0 # 3.0 * i_0             # 132 = 1E-7 *330 million = initially exposed
+	i_0 = 1E-7                  # 80 = 1E-7 * 80 million population = initially infected
+	e_0 = 0 # 3.0 * i_0             
 	s_0 = 1.0 - i_0 - e_0
 	r_0 = 0.0
 	x_0 = [s_0, e_0, i_0, r_0]  # initial condition
@@ -1615,7 +1615,7 @@ version = "0.9.1+5"
 # ╟─a13f15de-0f8e-4041-8876-684c579139f0
 # ╟─9759497a-aa6d-4f8e-882e-2426be9244a4
 # ╠═3ef51b7a-f232-11ec-2d56-a5228375164b
-# ╠═bad4c794-3e04-4111-a9d6-bf463e10425b
+# ╟─bad4c794-3e04-4111-a9d6-bf463e10425b
 # ╟─fc428938-6dc1-46e6-b5fa-0fffaa2b8ee2
 # ╠═7dbc78ae-35da-4fa1-bc5e-8c9ba4fd9de1
 # ╟─f18e5d16-2b46-4a4a-9bb0-1b037317a9b2
