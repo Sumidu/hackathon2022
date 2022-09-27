@@ -1,7 +1,7 @@
 # Göttingen Hackathon 2022
 Repository for the hackathon Julia demo in Göttingen.
 
-Contiains 2 Pluto notebooks.
+Contains 2 Pluto notebooks.
 
 Setup requires Pluto.jl
 
