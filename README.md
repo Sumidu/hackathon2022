@@ -5,8 +5,10 @@ Contains 2 Pluto notebooks.
 
 Setup requires Pluto.jl
 
-Run this at the terminal after cloning the repo:
-- using Pkg
-- Pkg.add("Pluto")
-- using Pluto
-- Pluto.run()
+Run this in the Julia REPL after cloning the repo:
+```julia
+using Pkg
+Pkg.add("Pluto")
+using Pluto
+Pluto.run()
+```
